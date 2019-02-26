@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6FA727219080B400045276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FA726219080B400045276 /* AppDelegate.swift */; };
+		CD6FA729219080B400045276 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6FA728219080B400045276 /* art.scnassets */; };
+		CD6FA72B219080B400045276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FA72A219080B400045276 /* ViewController.swift */; };
+		CD6FA72E219080B400045276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6FA72C219080B400045276 /* Main.storyboard */; };
+		CD6FA730219080B600045276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6FA72F219080B600045276 /* Assets.xcassets */; };
+		CD6FA733219080B600045276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6FA731219080B600045276 /* LaunchScreen.storyboard */; };
+		CD6FA73E219080B600045276 /* GoogleBlocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FA73D219080B600045276 /* GoogleBlocksTests.swift */; };
+		CD6FA749219080B600045276 /* GoogleBlocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FA748219080B600045276 /* GoogleBlocksUITests.swift */; };
+		CDE74313219096AD00F8EE5B /* people.dae in Resources */ = {isa = PBXBuildFile; fileRef = CDE74312219096AC00F8EE5B /* people.dae */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6FA73A219080B600045276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6FA71B219080B300045276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6FA722219080B300045276;
+			remoteInfo = GoogleBlocks;
+		};
+		CD6FA745219080B600045276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6FA71B219080B300045276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6FA722219080B300045276;
+			remoteInfo = GoogleBlocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6FA723219080B300045276 /* GoogleBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6FA726219080B400045276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6FA728219080B400045276 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CD6FA72A219080B400045276 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD6FA72D219080B400045276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6FA72F219080B600045276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6FA732219080B600045276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6FA734219080B600045276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6FA739219080B600045276 /* GoogleBlocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBlocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6FA73D219080B600045276 /* GoogleBlocksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBlocksTests.swift; sourceTree = "<group>"; };
+		CD6FA73F219080B600045276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6FA744219080B600045276 /* GoogleBlocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBlocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6FA748219080B600045276 /* GoogleBlocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBlocksUITests.swift; sourceTree = "<group>"; };
+		CD6FA74A219080B600045276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE74312219096AC00F8EE5B /* people.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = people.dae; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6FA720219080B300045276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FA736219080B600045276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FA741219080B600045276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6FA71A219080B300045276 = {
+			isa = PBXGroup;
+			children = (
+				CD6FA725219080B400045276 /* GoogleBlocks */,
+				CD6FA73C219080B600045276 /* GoogleBlocksTests */,
+				CD6FA747219080B600045276 /* GoogleBlocksUITests */,
+				CD6FA724219080B400045276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6FA724219080B400045276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FA723219080B300045276 /* GoogleBlocks.app */,
+				CD6FA739219080B600045276 /* GoogleBlocksTests.xctest */,
+				CD6FA744219080B600045276 /* GoogleBlocksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6FA725219080B400045276 /* GoogleBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FA726219080B400045276 /* AppDelegate.swift */,
+				CDE74312219096AC00F8EE5B /* people.dae */,
+				CD6FA728219080B400045276 /* art.scnassets */,
+				CD6FA72A219080B400045276 /* ViewController.swift */,
+				CD6FA72C219080B400045276 /* Main.storyboard */,
+				CD6FA72F219080B600045276 /* Assets.xcassets */,
+				CD6FA731219080B600045276 /* LaunchScreen.storyboard */,
+				CD6FA734219080B600045276 /* Info.plist */,
+			);
+			path = GoogleBlocks;
+			sourceTree = "<group>";
+		};
+		CD6FA73C219080B600045276 /* GoogleBlocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FA73D219080B600045276 /* GoogleBlocksTests.swift */,
+				CD6FA73F219080B600045276 /* Info.plist */,
+			);
+			path = GoogleBlocksTests;
+			sourceTree = "<group>";
+		};
+		CD6FA747219080B600045276 /* GoogleBlocksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FA748219080B600045276 /* GoogleBlocksUITests.swift */,
+				CD6FA74A219080B600045276 /* Info.plist */,
+			);
+			path = GoogleBlocksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6FA722219080B300045276 /* GoogleBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6FA74D219080B600045276 /* Build configuration list for PBXNativeTarget "GoogleBlocks" */;
+			buildPhases = (
+				CD6FA71F219080B300045276 /* Sources */,
+				CD6FA720219080B300045276 /* Frameworks */,
+				CD6FA721219080B300045276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleBlocks;
+			productName = GoogleBlocks;
+			productReference = CD6FA723219080B300045276 /* GoogleBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6FA738219080B600045276 /* GoogleBlocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6FA750219080B600045276 /* Build configuration list for PBXNativeTarget "GoogleBlocksTests" */;
+			buildPhases = (
+				CD6FA735219080B600045276 /* Sources */,
+				CD6FA736219080B600045276 /* Frameworks */,
+				CD6FA737219080B600045276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6FA73B219080B600045276 /* PBXTargetDependency */,
+			);
+			name = GoogleBlocksTests;
+			productName = GoogleBlocksTests;
+			productReference = CD6FA739219080B600045276 /* GoogleBlocksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6FA743219080B600045276 /* GoogleBlocksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6FA753219080B600045276 /* Build configuration list for PBXNativeTarget "GoogleBlocksUITests" */;
+			buildPhases = (
+				CD6FA740219080B600045276 /* Sources */,
+				CD6FA741219080B600045276 /* Frameworks */,
+				CD6FA742219080B600045276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6FA746219080B600045276 /* PBXTargetDependency */,
+			);
+			name = GoogleBlocksUITests;
+			productName = GoogleBlocksUITests;
+			productReference = CD6FA744219080B600045276 /* GoogleBlocksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6FA71B219080B300045276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Leonardo Geus";
+				TargetAttributes = {
+					CD6FA722219080B300045276 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CD6FA738219080B600045276 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD6FA722219080B300045276;
+					};
+					CD6FA743219080B600045276 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD6FA722219080B300045276;
+					};
+				};
+			};
+			buildConfigurationList = CD6FA71E219080B300045276 /* Build configuration list for PBXProject "GoogleBlocks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6FA71A219080B300045276;
+			productRefGroup = CD6FA724219080B400045276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6FA722219080B300045276 /* GoogleBlocks */,
+				CD6FA738219080B600045276 /* GoogleBlocksTests */,
+				CD6FA743219080B600045276 /* GoogleBlocksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6FA721219080B300045276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6FA729219080B400045276 /* art.scnassets in Resources */,
+				CD6FA733219080B600045276 /* LaunchScreen.storyboard in Resources */,
+				CD6FA730219080B600045276 /* Assets.xcassets in Resources */,
+				CD6FA72E219080B400045276 /* Main.storyboard in Resources */,
+				CDE74313219096AD00F8EE5B /* people.dae in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FA737219080B600045276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FA742219080B600045276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6FA71F219080B300045276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6FA72B219080B400045276 /* ViewController.swift in Sources */,
+				CD6FA727219080B400045276 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FA735219080B600045276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6FA73E219080B600045276 /* GoogleBlocksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6FA740219080B600045276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6FA749219080B600045276 /* GoogleBlocksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6FA73B219080B600045276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6FA722219080B300045276 /* GoogleBlocks */;
+			targetProxy = CD6FA73A219080B600045276 /* PBXContainerItemProxy */;
+		};
+		CD6FA746219080B600045276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6FA722219080B300045276 /* GoogleBlocks */;
+			targetProxy = CD6FA745219080B600045276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6FA72C219080B400045276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6FA72D219080B400045276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6FA731219080B600045276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6FA732219080B600045276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6FA74B219080B600045276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6FA74C219080B600045276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6FA74E219080B600045276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDUR7X8MST;
+				INFOPLIST_FILE = GoogleBlocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.t-systems.GoogleBlocks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6FA74F219080B600045276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDUR7X8MST;
+				INFOPLIST_FILE = GoogleBlocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.t-systems.GoogleBlocks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD6FA751219080B600045276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDUR7X8MST;
+				INFOPLIST_FILE = GoogleBlocksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.t-systems.GoogleBlocksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleBlocks.app/GoogleBlocks";
+			};
+			name = Debug;
+		};
+		CD6FA752219080B600045276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDUR7X8MST;
+				INFOPLIST_FILE = GoogleBlocksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.t-systems.GoogleBlocksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleBlocks.app/GoogleBlocks";
+			};
+			name = Release;
+		};
+		CD6FA754219080B600045276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDUR7X8MST;
+				INFOPLIST_FILE = GoogleBlocksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.t-systems.GoogleBlocksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleBlocks;
+			};
+			name = Debug;
+		};
+		CD6FA755219080B600045276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDUR7X8MST;
+				INFOPLIST_FILE = GoogleBlocksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.t-systems.GoogleBlocksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleBlocks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6FA71E219080B300045276 /* Build configuration list for PBXProject "GoogleBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6FA74B219080B600045276 /* Debug */,
+				CD6FA74C219080B600045276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6FA74D219080B600045276 /* Build configuration list for PBXNativeTarget "GoogleBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6FA74E219080B600045276 /* Debug */,
+				CD6FA74F219080B600045276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6FA750219080B600045276 /* Build configuration list for PBXNativeTarget "GoogleBlocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6FA751219080B600045276 /* Debug */,
+				CD6FA752219080B600045276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6FA753219080B600045276 /* Build configuration list for PBXNativeTarget "GoogleBlocksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6FA754219080B600045276 /* Debug */,
+				CD6FA755219080B600045276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6FA71B219080B300045276 /* Project object */;
+}
